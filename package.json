@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "test": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test.ts",
+    "test_01": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test.ts",
+    "test_02": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test_02.ts",
+    "test_03a": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test_03a.ts",
+    "test_03b": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test_03b.ts",
+    "test_04": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test_04.ts",
+    "test_01_m": "yarn run ts-mocha --allow-uncaught -p ./tsconfig.json -t 1000000 ./tests/test_01_m.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.5.2",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.91.7",
+    "borsh": "^0.7.0",
+    "buffer": "^6.0.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
